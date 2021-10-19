@@ -3,9 +3,9 @@ networks:
  campus_virtual:
 
 services:
-   ud-repository-publicar:
+   ud-repository-stadistics:
      build: .
-     container_name: ud-repository-publicar
+     container_name: ud-repository-stadistics
      restart: on-failure
      env_file:
         - .env
