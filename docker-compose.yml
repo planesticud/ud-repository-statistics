@@ -4,7 +4,7 @@ networks:
 
 services:
    ud-repository-stadistics:
-     build: .
+     image: planesticud/ud-repository-stadistics
      container_name: ud-repository-stadistics
      restart: on-failure
      env_file:
