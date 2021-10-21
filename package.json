@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/planesticud/ud-repository-statistics.git"
+    "url": "git+https://github.com/planesticud/ud-repository-stadistics.git"
   },
   "keywords": [
     "planestic",
@@ -21,9 +21,9 @@
   "author": "Jose David Rodriguez",
   "license": "ISC",
   "bugs": {
-    "url": "hhttps://github.com/planesticud/ud-repository-statistics/issues"
+    "url": "hhttps://github.com/planesticud/ud-repository-stadistics/issues"
   },
-  "homepage": "https://github.com/planesticud/ud-repository-statistics#readme",
+  "homepage": "https://github.com/planesticud/ud-repository-stadistics#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
