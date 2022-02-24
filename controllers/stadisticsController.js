@@ -52,5 +52,5 @@ stadisticsController.updateStadistics = async (req, res) => {
   }
 
   const upd = await dbQueries.update('stadistics', id, body)
- // res.json(upd)
+  res.json(upd)
 }

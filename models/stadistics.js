@@ -41,7 +41,7 @@ const stadisticsSchemaUpdate = {
             'type': 'int'
         }
     },
-    'required': ['num_view']
+    'required': ['id_obj']
 };
 
 module.exports = {
