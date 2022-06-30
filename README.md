@@ -1,2 +1,2 @@
 # ud-repository-stadistics
-repositorio de publicación de recursos
+repositorio de publicación de recursos, rankis
