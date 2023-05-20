@@ -1,17 +1,17 @@
 version: '3'
 networks:
- campus_virtual:
+ dev_planestic:
 
 services:
-   ud-repository-publicar:
-     build: .
-     container_name: ud-repository-publicar
+   ud-repository-statistics:
+     image: planesticud/ud-repository-statistics:latest
+     container_name: ud-repository-statistics
      restart: on-failure
      env_file:
         - .env
      networks:
-        - campus_virtual          
+        - dev_planestic          
 
 networks:
-  campus_virtual:
+  dev_planestic:
     external: true
